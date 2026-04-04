@@ -8,7 +8,7 @@ layers:
   - T
   - Y
   - U
-  - I
+  - {t: I, h: Number Layer}
   - O
   - P
   - A
@@ -94,7 +94,7 @@ layers:
   - '='
   - F1
   - F2
-  - F7
+  - {t: F7, type: held}
   - F10
   - RSHIFT
   - '*'
@@ -121,7 +121,7 @@ layers:
   - .
   - '0'
   - {t: ▽, type: trans}
-  - {t: LANG2, type: held}
+  - LANG2
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - LANG1
