@@ -29,7 +29,7 @@ layers:
   - N
   - M
   - ','
-  - .
+  - {t: PERIOD, h: Number Layer}
   - {t: /, h: RSHFT}
   - {t: ESCAPE, h: Device Layer}
   - LCTRL
@@ -115,14 +115,14 @@ layers:
   - '&mkp MB2'
   - ''
   - ↓
-  - ''
+  - {type: held}
   - RALT
   - {t: ▽, type: trans}
   - .
   - '0'
   - {t: ▽, type: trans}
   - LANG2
-  - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - LANG1
   - {t: ▽, type: trans}
