@@ -70,9 +70,9 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - Alt+Ctl+LEFT ARROW
-  - ←
-  - ↑
-  - →
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - Alt+Ctl+→
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -83,7 +83,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - ↓
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - Gui+W
   Number Layer:
