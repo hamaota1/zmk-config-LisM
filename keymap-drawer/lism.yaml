@@ -49,31 +49,31 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - SPACE
-  - Gui+←
+  - Ctl+←
+  - Ctl+DOWN ARROW
   - Gui+→
-  - '&mkp MB3'
-  - {t: ▽, type: trans}
+  - Ctl+UP ARROW
+  - Ctl+→
   - '&mkp MB5'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - Gui+↑
+  - Alt+Ctl+DOWN ARROW
   - '&mkp MB1'
+  - '&mkp MB3'
   - '&mkp MB2'
-  - '&msc SCRL_UP'
-  - '&msc SCRL_DOWN'
+  - Alt+Ctl+UP ARROW
   - '&mkp MB4'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - Gui+↓
+  - Alt+Ctl+↓
   - ←
   - ↑
   - →
-  - {t: ▽, type: trans}
+  - Alt+Ctl+→
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {type: held}
