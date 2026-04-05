@@ -21,7 +21,6 @@
     excluded-positions = <
         5 // y 
         6 // U
-        7 // I
         8
         9
         15
