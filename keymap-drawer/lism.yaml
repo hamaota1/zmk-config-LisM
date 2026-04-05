@@ -25,7 +25,7 @@ layers:
   - X
   - C
   - V
-  - B
+  - {t: B, h: Mark Layer}
   - N
   - M
   - ','
@@ -37,8 +37,8 @@ layers:
   - Sft+Gui+4
   - LEFT GUI
   - {t: SPACE, h: Number Layer}
-  - {t: BS, h: Number Layer}
-  - {t: ENTER, h: Mark Layer}
+  - {t: RETURN, h: Number Layer}
+  - {t: BS, h: Mark Layer}
   - Sft+Gui+4
   - LEFT ARROW
   - RIGHT ALT
