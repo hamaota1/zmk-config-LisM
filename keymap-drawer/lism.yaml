@@ -51,7 +51,7 @@ layers:
   - {t: ▽, type: trans}
   - Ctl+←
   - Ctl+DOWN ARROW
-  - Gui+→
+  - {t: ▽, type: trans}
   - Ctl+UP ARROW
   - Ctl+→
   - {t: ▽, type: trans}
