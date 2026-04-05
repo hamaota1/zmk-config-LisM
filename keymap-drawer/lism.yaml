@@ -54,7 +54,7 @@ layers:
   - Gui+→
   - Ctl+UP ARROW
   - Ctl+→
-  - '&mkp MB5'
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -64,7 +64,7 @@ layers:
   - '&mkp MB3'
   - '&mkp MB2'
   - Alt+Ctl+UP ARROW
-  - '&mkp MB4'
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -85,7 +85,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - Gui+W
+  - {t: ▽, type: trans}
   Number Layer:
   - {t: ▽, type: trans}
   - '7'
