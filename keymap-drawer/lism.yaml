@@ -8,7 +8,7 @@ layers:
   - T
   - Y
   - U
-  - I
+  - {t: I, h: Number Layer}
   - O
   - P
   - A
@@ -29,7 +29,7 @@ layers:
   - N
   - M
   - ','
-  - {t: PERIOD, h: Number Layer}
+  - PERIOD
   - {t: /, h: RSHFT}
   - {t: ESCAPE, h: Device Layer}
   - LCTRL
@@ -94,7 +94,7 @@ layers:
   - '='
   - F1
   - F2
-  - F7
+  - {type: held}
   - F10
   - RSHIFT
   - '*'
@@ -113,9 +113,9 @@ layers:
   - '3'
   - +
   - '&mkp MB2'
-  - ''
+  - {t: ▽, type: trans}
   - ↓
-  - {type: held}
+  - {t: ▽, type: trans}
   - RALT
   - {t: ▽, type: trans}
   - .
