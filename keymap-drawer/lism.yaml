@@ -166,10 +166,10 @@ layers:
   - {t: ▽, type: trans}
   - LEFT GUI
   - SPACE
-  - BS
-  - ENTER
   - ENTER
   - ''
+  - ''
+  - BS
   - F12
   - RIGHT SHIFT
   Device Layer:
