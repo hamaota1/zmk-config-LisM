@@ -51,11 +51,11 @@
         default_layer {
             display-name = "Default Layer";
             bindings = <
-&kp Q           &kp W             &kp E         &kp R         &kp T                                   &kp Y           &kp U           &lt 5 I          &kp O       &kp P
-&kp A           &mt LALT S        &mt LSHIFT D  &mt LGUI F    &mt LCTRL G                             &mt RCTRL H     &mt RGUI J      &mt RSHIFT K     &mt RALT L  &lt 3 SEMICOLON
-&kp Z           &kp X             &kp C         &kp V         &kp B                                   &kp N           &kp M           &kp COMMA        &kp DOT     &kp SLASH
-&kp LEFT_SHIFT  &kp LEFT_CONTROL  &kp LEFT_ALT  &kp LEFT_GUI  &lt 2 SPACE  &lt 3 TAB    &lt 3 RETURN  &kp BACKSPACE   &msc SCRL_UP    &lt 4 CAPS       &kp ESC     &kp RIGHT_SHIFT
-                                  &trans        &trans        &trans                                  &msc SCRL_LEFT  &msc SCRL_DOWN  &msc SCRL_RIGHT
+&kp Q           &kp W               &kp E           &kp R         &kp T                                   &kp Y           &kp U           &lt 5 I          &kp O                &kp P
+&kp A           &mt LEFT_CONTROL S  &mt LEFT_ALT D  &mt LGUI F    &kp G                                   &kp H           &mt RGUI J      &mt RIGHT_ALT K  &mt RIGHT_CONTROL L  &kp SEMI
+&kp Z           &kp X               &kp C           &kp V         &kp B                                   &kp N           &kp M           &kp COMMA        &kp DOT              &kp SLASH
+&kp LEFT_SHIFT  &kp LEFT_CONTROL    &kp LEFT_ALT    &kp LEFT_GUI  &lt 2 SPACE  &lt 3 TAB    &lt 3 RETURN  &kp BACKSPACE   &msc SCRL_UP    &lt 4 CAPS       &kp ESC              &kp RIGHT_SHIFT
+                                    &trans          &trans        &trans                                  &msc SCRL_LEFT  &msc SCRL_DOWN  &msc SCRL_RIGHT
             >;
         };
 
