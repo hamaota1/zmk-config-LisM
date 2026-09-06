@@ -110,9 +110,8 @@
             >;
         };
 
-        SCROLL {
-            status = "reserved";
-            display-name = "SCROLL";
+        layer_5 {
+            display-name = "SCROLL Layer";
             bindings = <
 &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans
