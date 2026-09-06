@@ -38,10 +38,10 @@
         <&zip_temp_layer 1 1500>;
 
     scroller {
-        layers = <5>;
+        layers = <4>;
         input-processors = 
             <&zip_xy_to_scroll_mapper>,
-        //  <&zip_scroll_transform INPUT_TRANSFORM_X_INVERT>,
+            <&zip_scroll_transform INPUT_TRANSFORM_X_INVERT>,
             <&zip_scroll_scaler 1 45>;
     };
 };
