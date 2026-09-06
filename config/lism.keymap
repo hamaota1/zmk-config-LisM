@@ -67,10 +67,10 @@
         layer_1 {
             display-name = "Mouse Layer";
             bindings = <
-&trans    &trans  &trans  &trans  &trans                    &kp SPACE     &kp RG(LEFT)  &kp RG(UP_ARROW)  &kp LG(RIGHT)  &trans
-&mkp MB5  &trans  &trans  &trans  &trans                    &kp LG(UP)    &mkp MB1      &mkp MB3          &mkp MB2       &msc SCRL_UP
-&mkp MB4  &trans  &trans  &trans  &trans                    &kp LG(DOWN)  &kp LEFT      &kp UP            &kp RIGHT      &msc SCRL_DOWN
-&trans    &trans  &trans  &trans  &trans  &trans    &trans  &trans        &trans        &kp DOWN          &trans         &kp LG(W)
+&trans    &trans  &trans  &trans  &trans                    &kp SPACE     &kp RG(LEFT)  &mo 5     &kp LG(RIGHT)  &trans
+&mkp MB5  &trans  &trans  &trans  &trans                    &kp LG(UP)    &mkp MB1      &mkp MB3  &mkp MB2       &msc SCRL_UP
+&mkp MB4  &trans  &trans  &trans  &trans                    &kp LG(DOWN)  &kp LEFT      &kp UP    &kp RIGHT      &msc SCRL_DOWN
+&trans    &trans  &trans  &trans  &trans  &trans    &trans  &trans        &trans        &kp DOWN  &trans         &kp LG(W)
                   &trans  &trans  &trans                    &trans        &trans        &trans
             >;
         };
