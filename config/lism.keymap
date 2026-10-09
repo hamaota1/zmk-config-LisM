@@ -110,7 +110,7 @@
             >;
         };
 
-        layer_5 {
+        Scroll {
             status = "reserved";
             display-name = "SCROLL Layer";
             bindings = <
