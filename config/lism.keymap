@@ -116,7 +116,7 @@
             display-name = "Mark Layer";
             bindings = <
 &kp PLUS      &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp ASTERISK                    &kp LC(LEFT)          &kp LEFT              &kp UP_ARROW    &kp RIGHT         &kp LC(RIGHT)
-&kp MINUS     &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp SLASH                       &kp LG(LEFT_ARROW)    &kp LC(DOWN)          &kp DOWN_ARROW  &kp LC(UP_ARROW)  &kp LG(RIGHT_ARROW)
+&kp MINUS     &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp SLASH                       &kp LC(LS(TAB))       &kp LC(DOWN)          &kp DOWN_ARROW  &kp LC(UP_ARROW)  &kp LC(TAB)
 &kp NUMBER_0  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp PERIOD                      &kp C_BRIGHTNESS_DEC  &kp C_BRIGHTNESS_INC  &kp C_MUTE      &kp C_VOL_DN      &kp C_VOLUME_UP
 &trans        &trans        &trans        &trans        &trans        &trans    &trans  &trans                &trans                &trans          &trans            &trans
                             &trans        &trans        &trans                          &trans                &trans                &trans
