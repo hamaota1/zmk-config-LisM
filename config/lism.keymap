@@ -78,11 +78,11 @@
         default_layer {
             display-name = "Default Layer";
             bindings = <
-&kp Q             &kp W               &kp E           &kp R         &kp T                               &kp Y            &kp U           &lt 5 I          &kp O                &kp P
-&kp A             &mt LEFT_CONTROL S  &mt LEFT_ALT D  &mt LGUI F    &kp G                               &kp H            &mt RGUI J      &mt RIGHT_ALT K  &mt RIGHT_CONTROL L  &kp SEMICOLON
-&mt LEFT_SHIFT Z  &kp X               &kp C           &kp V         &kp B                               &kp N            &kp M           &kp COMMA        &kp DOT              &mt RIGHT_SHIFT SLASH
-&kp LEFT_SHIFT    &kp LEFT_CONTROL    &kp LEFT_ALT    &kp LEFT_GUI  &lt 2 SPACE  &lt 6 CAPS    &kp RET  &lt 3 BACKSPACE  &mmv MOVE_UP    &lt 4 ESC        &mt GLOBE TAB        &kp RIGHT_SHIFT
-                                      &none           &none         &none                               &mmv MOVE_LEFT   &mmv MOVE_DOWN  &mmv MOVE_RIGHT
+&kp Q             &kp W               &kp E           &kp R         &kp T                                    &kp Y           &kp U           &lt 5 I          &kp O                &kp P
+&kp A             &mt LEFT_CONTROL S  &mt LEFT_ALT D  &mt LGUI F    &kp G                                    &kp H           &mt RGUI J      &mt RIGHT_ALT K  &mt RIGHT_CONTROL L  &kp SEMICOLON
+&mt LEFT_SHIFT Z  &kp X               &kp C           &kp V         &kp B                                    &kp N           &kp M           &kp COMMA        &kp DOT              &mt RIGHT_SHIFT SLASH
+&kp LEFT_SHIFT    &kp LEFT_CONTROL    &kp LEFT_ALT    &kp LEFT_GUI  &lt 2 SPACE  &lt 6 CAPS    &lt 3 RETURN  &kp BACKSPACE   &mmv MOVE_UP    &lt 4 ESC        &mt GLOBE TAB        &kp RIGHT_SHIFT
+                                      &none           &none         &none                                    &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT
             >;
 
             sensor-bindings = <&rsr_scrl &rsr_scrl>;
