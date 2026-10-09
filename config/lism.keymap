@@ -81,8 +81,8 @@
 &kp Q             &kp W               &kp E           &kp R         &kp T                               &kp Y            &kp U           &lt 5 I          &kp O                &kp P
 &kp A             &mt LEFT_CONTROL S  &mt LEFT_ALT D  &mt LGUI F    &kp G                               &kp H            &mt RGUI J      &mt RIGHT_ALT K  &mt RIGHT_CONTROL L  &kp SEMICOLON
 &mt LEFT_SHIFT Z  &kp X               &kp C           &kp V         &kp B                               &kp N            &kp M           &kp COMMA        &kp DOT              &mt RIGHT_SHIFT SLASH
-&kp LEFT_SHIFT    &kp LEFT_CONTROL    &kp LEFT_ALT    &kp LEFT_GUI  &lt 2 SPACE  &lt 6 CAPS    &kp RET  &lt 3 BACKSPACE  &msc SCRL_UP    &lt 4 ESC        &mt GLOBE TAB        &kp RIGHT_SHIFT
-                                      &none           &none         &none                               &msc SCRL_LEFT   &msc SCRL_DOWN  &msc SCRL_RIGHT
+&kp LEFT_SHIFT    &kp LEFT_CONTROL    &kp LEFT_ALT    &kp LEFT_GUI  &lt 2 SPACE  &lt 6 CAPS    &kp RET  &lt 3 BACKSPACE  &mmv MOVE_UP    &lt 4 ESC        &mt GLOBE TAB        &kp RIGHT_SHIFT
+                                      &none           &none         &none                               &mmv MOVE_LEFT   &mmv MOVE_DOWN  &mmv MOVE_RIGHT
             >;
 
             sensor-bindings = <&rsr_scrl &rsr_scrl>;
@@ -105,8 +105,8 @@
 &kp F1        &kp F2            &kp F3             &kp F4                &kp F5                          &kp F6        &kp F7       &kp F8         &kp F9         &kp F10
 &kp NUMBER_1  &kp NUMBER_2      &kp NUMBER_3       &kp NUMBER_4          &kp NUMBER_5                    &kp NUMBER_6  &kp N7       &kp N8         &kp N9         &kp N0
 &kp GRAVE     &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp NON_US_BACKSLASH  &kp MINUS                       &kp EQUAL     &kp INT_YEN  &kp BACKSLASH  &kp LG(MINUS)  &kp LS(LG(EQUAL))
-&trans        &trans            &trans             &trans                &trans        &trans    &trans  &trans        &kp UP       &trans         &trans         &trans
-                                &none              &none                 &none                           &kp LEFT      &kp DOWN     &kp RIGHT
+&trans        &trans            &trans             &trans                &trans        &trans    &trans  &trans        &trans       &trans         &trans         &trans
+                                &none              &none                 &none                           &trans        &trans       &trans
             >;
 
             sensor-bindings = <&encoder_kp C_VOL_UP C_VOL_DN>;
@@ -129,7 +129,7 @@
 &none  &none  &none   &none   &none                            &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4
 &none  &none  &none   &none   &none                            &none         &none         &none         &none         &bootloader
 &none  &none  &none   &none   &none                            &none         &none         &none         &none         &bt BT_CLR
-&none  &none  &none   &none   &none   &none    &studio_unlock  &none         &none         &none         &none         &bt BT_CLR_ALL
+&none  &none  &none   &none   &none   &none    &studio_unlock  &none         &trans        &none         &none         &bt BT_CLR_ALL
               &trans  &trans  &trans                           &trans        &trans        &trans
             >;
         };
