@@ -54,11 +54,11 @@
         default_layer {
             display-name = "Default Layer";
             bindings = <
-&kp Q             &kp W               &kp E           &kp R         &kp T                              &kp Y            &kp U           &lt 5 I          &kp O                &kp P
-&kp A             &mt LEFT_CONTROL S  &mt LEFT_ALT D  &mt LGUI F    &kp G                              &kp H            &mt RGUI J      &mt RIGHT_ALT K  &mt RIGHT_CONTROL L  &kp SEMICOLON
-&mt LEFT_SHIFT Z  &kp X               &kp C           &kp V         &kp B                              &kp N            &kp M           &kp COMMA        &kp DOT              &mt RIGHT_SHIFT SLASH
-&kp LEFT_SHIFT    &kp LEFT_CONTROL    &kp LEFT_ALT    &kp LEFT_GUI  &lt 2 SPACE  &lt 3 ESC    &kp RET  &lt 2 BACKSPACE  &msc SCRL_UP    &lt 4 ESC        &kp TAB              &kp RIGHT_SHIFT
-                                      &none           &none         &none                              &msc SCRL_LEFT   &msc SCRL_DOWN  &msc SCRL_RIGHT
+&kp Q             &kp W               &kp E           &kp R         &kp T                               &kp Y            &kp U           &lt 5 I          &kp O                &kp P
+&kp A             &mt LEFT_CONTROL S  &mt LEFT_ALT D  &mt LGUI F    &kp G                               &kp H            &mt RGUI J      &mt RIGHT_ALT K  &mt RIGHT_CONTROL L  &kp SEMICOLON
+&mt LEFT_SHIFT Z  &kp X               &kp C           &kp V         &kp B                               &kp N            &kp M           &kp COMMA        &kp DOT              &mt RIGHT_SHIFT SLASH
+&kp LEFT_SHIFT    &kp LEFT_CONTROL    &kp LEFT_ALT    &kp LEFT_GUI  &lt 2 SPACE  &lt 4 CAPS    &kp RET  &lt 3 BACKSPACE  &msc SCRL_UP    &lt 4 ESC        &kp TAB              &kp RIGHT_SHIFT
+                                      &none           &none         &none                               &msc SCRL_LEFT   &msc SCRL_DOWN  &msc SCRL_RIGHT
             >;
 
             sensor-bindings = <&rsr_scrl &rsr_scrl>;
@@ -78,11 +78,11 @@
         layer_2 {
             display-name = "Number Layer";
             bindings = <
-&trans        &kp NUMBER_7       &kp NUMBER_8         &kp NUMBER_9       &kp EQUAL                          &kp F1     &kp F2    &kp F7           &kp F10      &kp RSHIFT
-&kp ASTERISK  &mt LALT NUMBER_4  &mt LSHIFT NUMBER_5  &mt LGUI NUMBER_6  &mt LCTRL MINUS                    &mkp MB1   &kp LEFT  &kp UP           &kp RIGHT    &kp RGUI
-&kp SLASH     &kp NUMBER_1       &kp NUMBER_2         &kp NUMBER_3       &kp PLUS                           &mkp MB2   &none     &kp DOWN         &none        &kp RALT
-&trans        &kp DOT            &kp NUMBER_0         &kp UP             &kp LANG2        &trans    &trans  &kp LANG1  &kp UP    &kp RS(RC(TAB))  &kp RC(TAB)  &kp F12
-                                 &kp LEFT             &kp DOWN           &kp RIGHT                          &kp LEFT   &kp DOWN  &kp RIGHT
+&kp F1        &kp F2            &kp F3             &kp F4                &kp F5                          &kp F6        &kp F7       &kp F8         &kp F9         &kp F10
+&kp NUMBER_1  &kp NUMBER_2      &kp NUMBER_3       &kp NUMBER_4          &kp NUMBER_5                    &kp NUMBER_6  &kp N7       &kp N8         &kp N9         &kp N0
+&kp GRAVE     &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp NON_US_BACKSLASH  &kp MINUS                       &kp EQUAL     &kp INT_YEN  &kp BACKSLASH  &kp LG(MINUS)  &kp LS(LG(EQUAL))
+&trans        &trans            &trans             &trans                &trans        &trans    &trans  &trans        &kp UP       &trans         &trans         &trans
+                                &none              &none                 &none                           &kp LEFT      &kp DOWN     &kp RIGHT
             >;
 
             sensor-bindings = <&encoder_kp C_VOL_UP C_VOL_DN>;
