@@ -48,6 +48,30 @@
         };
     };
 
+    combos {
+        compatible = "zmk,combos";
+
+        Escape {
+            bindings = <&kp ESC>;
+            key-positions = <0 1>;
+        };
+
+        Tab {
+            bindings = <&kp TAB>;
+            key-positions = <1 2>;
+        };
+
+        Increase {
+            bindings = <&kp LS(LG(EQUAL))>;
+            key-positions = <8 9>;
+        };
+
+        Decrease {
+            bindings = <&kp LG(MINUS)>;
+            key-positions = <7 8>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
