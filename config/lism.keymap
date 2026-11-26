@@ -48,6 +48,40 @@
         };
     };
 
+    combos {
+        compatible = "zmk,combos";
+
+        Escape {
+            bindings = <&kp ESCAPE>;
+            key-positions = <0 1>;
+        };
+
+        Tab {
+            bindings = <&kp TAB>;
+            key-positions = <1 2>;
+        };
+
+        TabFwd {
+            bindings = <&kp LC(TAB)>;
+            key-positions = <18 19>;
+        };
+
+        TabBack {
+            bindings = <&kp LS(LC(TAB))>;
+            key-positions = <17 18>;
+        };
+
+        Dec {
+            bindings = <&kp LG(MINUS)>;
+            key-positions = <7 8>;
+        };
+
+        Inc {
+            bindings = <&kp LG(PLUS)>;
+            key-positions = <8 9>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
