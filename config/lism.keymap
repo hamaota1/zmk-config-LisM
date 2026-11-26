@@ -88,11 +88,11 @@
         default_layer {
             display-name = "Default Layer";
             bindings = <
-&kp Q           &kp W               &kp E           &kp R         &kp T                                           &kp Y          &kp U       &lt 5 K         &kp O               &kp P
-&kp A           &mt LEFT_CONTROL S  &mt LEFT_ALT D  &mt LGUI F    &kp G                                           &kp H          &mt RGUI J  &mt LEFT_ALT K  &mt LEFT_CONTROL L  &kp SEMICOLON
-&kp Z           &kp X               &kp C           &kp V         &kp B                                           &kp N          &kp M       &kp COMMA       &kp DOT             &kp SLASH
-&kp LEFT_SHIFT  &kp LEFT_CONTROL    &kp LEFT_ALT    &kp LEFT_GUI  &lt 2 SPACE  &lt 6 CAPSLOCK    &lt 3 BACKSPACE  &kp BACKSPACE  &trans      &lt 4 ESCAPE    &kp TAB             &kp RIGHT_SHIFT
-                                                                                                                  &trans         &trans      &trans
+&kp Q           &kp W               &kp E           &kp R         &kp T                                            &kp Y          &kp U       &lt 5 K         &kp O               &kp P
+&kp A           &mt LEFT_CONTROL S  &mt LEFT_ALT D  &mt LGUI F    &kp G                                            &kp H          &mt RGUI J  &mt LEFT_ALT K  &mt LEFT_CONTROL L  &kp SEMICOLON
+&kp Z           &kp X               &kp C           &kp V         &kp B                                            &kp N          &kp M       &kp COMMA       &kp DOT             &kp SLASH
+&kp LEFT_SHIFT  &kp LEFT_CONTROL    &kp LEFT_ALT    &kp LEFT_GUI  &lt 2 SPACE   &lt 6 CAPSLOCK    &lt 3 BACKSPACE  &kp BACKSPACE  &trans      &lt 4 ESCAPE    &kp TAB             &kp RIGHT_SHIFT
+                                    &kp LEFT_GUI    &kp LEFT_GUI  &kp LEFT_GUI
             >;
 
             sensor-bindings = <&rsr_scrl &rsr_scrl>;
@@ -105,7 +105,7 @@
 &trans  &trans  &trans  &trans  &trans                    &trans  &mkp MB1  &trans  &mkp MB2  &trans
 &trans  &trans  &trans  &trans  &trans                    &trans  &trans    &trans  &trans    &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans    &trans  &trans    &trans
-                                                          &trans  &trans    &trans
+                &trans  &trans  &trans
             >;
         };
 
@@ -116,7 +116,7 @@
 &kp N1     &kp N2    &kp N3    &kp N4    &kp N5                       &kp N6     &kp N7    &kp N8   &kp N9   &kp N0
 &kp GRAVE  &kp LBKT  &kp RBKT  &kp APOS  &kp MINUS                    &kp EQUAL  &kp BSLH  &kp F11  &kp F12  &kp F13
 &trans     &trans    &trans    &trans    &trans     &trans    &trans  &trans     &kp UP    &trans   &trans   &trans
-                                                                      &trans     &trans    &trans
+                     &trans    &trans    &trans
             >;
 
             sensor-bindings = <&encoder_kp C_VOL_UP C_VOL_DN>;
@@ -129,18 +129,18 @@
 &kp MINUS  &kp N4  &kp N5  &kp N6  &kp SLASH                       &kp LG(MINUS)         &kp LC(DOWN_ARROW)    &kp DOWN_ARROW  &kp LC(UP_ARROW)  &kp LG(PLUS)
 &kp N0     &kp N1  &kp N2  &kp N3  &kp EQUAL                       &kp C_BRIGHTNESS_DEC  &kp C_BRIGHTNESS_INC  &kp K_MUTE      &kp C_VOL_DN      &kp C_VOLUME_UP
 &trans     &trans  &trans  &trans  &trans        &trans    &trans  &trans                &trans                &trans          &trans            &trans
-                                                                   &trans                &trans                &trans
+                   &trans  &trans  &trans
             >;
         };
 
         BLE {
             display-name = "Device Layer";
             bindings = <
-&none  &none  &none  &none  &none                           &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4
-&none  &none  &none  &none  &none                           &bootloader   &none         &none         &none         &bt BT_CLR
-&none  &none  &none  &none  &none                           &none         &none         &none         &none         &bt BT_CLR_ALL
-&none  &none  &none  &none  &none  &none    &studio_unlock  &none         &none         &trans        &trans        &trans
-                                                            &trans        &trans        &trans
+&none  &none  &none   &none   &none                            &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4
+&none  &none  &none   &none   &none                            &bootloader   &none         &none         &none         &bt BT_CLR
+&none  &none  &none   &none   &none                            &none         &none         &none         &none         &bt BT_CLR_ALL
+&none  &none  &none   &none   &none   &none    &studio_unlock  &none         &none         &trans        &trans        &trans
+              &trans  &trans  &trans
             >;
         };
 
@@ -152,7 +152,7 @@
 &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-                                                          &trans  &trans  &trans
+                &trans  &trans  &trans
             >;
         };
 
@@ -164,7 +164,7 @@
 &kp LA(LC(D))   &kp LA(LC(F))   &kp LA(LC(G))           &kp LA(LC(J))    &kp LA(LC(K))                              &kp MINUS  &kp N4  &kp N5     &kp N6      &kp FSLH
 &kp LS(LG(N3))  &kp LS(LG(N4))  &kp LA(LC(LEFT_ARROW))  &kp LA(LC(RET))  &kp LA(LC(RIGHT_ARROW))                    &kp N0     &kp N1  &kp N2     &kp N3      &kp EQUAL
 &trans          &trans          &trans                  &trans           &trans                   &trans    &trans  &trans     &trans  &kp COMMA  &kp PERIOD  &trans
-                                                                                                                    &trans     &trans  &trans
+                                &trans                  &trans           &trans
             >;
         };
 
@@ -176,7 +176,7 @@
 &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-                                                          &trans  &trans  &trans
+                &trans  &trans  &trans
             >;
         };
     };
