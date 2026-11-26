@@ -88,11 +88,11 @@
         default_layer {
             display-name = "Default Layer";
             bindings = <
-&kp Q           &kp W               &kp E           &kp R         &kp T                                            &kp Y          &kp U       &lt 5 K         &kp O               &kp P
-&kp A           &mt LEFT_CONTROL S  &mt LEFT_ALT D  &mt LGUI F    &kp G                                            &kp H          &mt RGUI J  &mt LEFT_ALT K  &mt LEFT_CONTROL L  &kp SEMICOLON
-&kp Z           &kp X               &kp C           &kp V         &kp B                                            &kp N          &kp M       &kp COMMA       &kp DOT             &kp SLASH
-&kp LEFT_SHIFT  &kp LEFT_CONTROL    &kp LEFT_ALT    &kp LEFT_GUI  &lt 2 SPACE   &lt 6 CAPSLOCK    &lt 3 BACKSPACE  &kp BACKSPACE  &trans      &lt 4 ESCAPE    &kp TAB             &kp RIGHT_SHIFT
-                                    &kp LEFT_GUI    &kp LEFT_GUI  &kp LEFT_GUI
+&kp Q           &kp W               &kp E           &kp R         &kp T                                        &kp Y          &kp U       &lt 5 K         &kp O               &kp P
+&kp A           &mt LEFT_CONTROL S  &mt LEFT_ALT D  &mt LGUI F    &kp G                                        &kp H          &mt RGUI J  &mt LEFT_ALT K  &mt LEFT_CONTROL L  &kp SEMICOLON
+&kp Z           &kp X               &kp C           &kp V         &kp B                                        &kp N          &kp M       &kp COMMA       &kp DOT             &kp SLASH
+&kp LEFT_SHIFT  &kp LEFT_CONTROL    &kp LEFT_ALT    &kp LEFT_GUI  &lt 2 SPACE   &lt 6 CAPSLOCK    &lt 3 ENTER  &kp BACKSPACE  &trans      &lt 4 ESCAPE    &kp TAB             &kp RIGHT_SHIFT
+                                    &trans          &none         &kp LEFT_GUI
             >;
 
             sensor-bindings = <&rsr_scrl &rsr_scrl>;
